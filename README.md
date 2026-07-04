@@ -13,7 +13,7 @@ interface Position {
     y: number;
 }
 
-class DecoyEmitter {
+never lose your hope
     private activeDecoys: Map<string, Position> = new Map();
     // NEW: Store movement vectors for "Dynamic Decoys"
     private decoyVectors: Map<string, { dx: number, dy: number }> = new Map();
